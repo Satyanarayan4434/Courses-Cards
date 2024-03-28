@@ -11,7 +11,7 @@ import Loading from "./components/Loading"
 const App = () => {
   const [courses, setcourses] = useState(null);
   const [loading, setLoading] = useState(true);
-  const[category, setCategory] =useState(filterData[0].title);
+  const[category, setCategory] = useState(filterData[0].title);
   async function fetchData(){
     setLoading(true)
     try {
